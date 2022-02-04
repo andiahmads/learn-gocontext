@@ -1,0 +1,6 @@
+karena context adalah sebuah interface, untuk membuat context kita butuh sebuh struct
+yang sesuai dengan contract interface context.
+namun kita tidak perlu membuatnya secara manual.
+digoalang pada package context terdapat function yg bisa kita gunakan untuk membuat context. 
+
+

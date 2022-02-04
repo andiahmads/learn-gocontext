@@ -1,0 +1,7 @@
+=======================Kenapa perlu belajar context?===============================================================
+context digolang biasanya digunakan untuk mengirim data request atau sinyal ke proses lain.
+dengan menggunakan context, ketika ingin membatalkan semua proses, kita cukup mengirim sinyal context.
+maka secara otomatis semua proses dibatalkan.
+hampir semua bagian digolang memanfaatkan context. seperti database, http server, http client, dll.
+bahkan di google sendiri, ketika menggunakan golang, context wajib digunakan dan selalu dikirim kesetiap function.
+context direpresentasikan didalam sebuah interface context.
